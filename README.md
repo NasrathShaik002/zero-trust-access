@@ -169,15 +169,16 @@ The final repository contains the application source code, HTML templates, docum
 ```text
 zero-trust-access/
 │
-├── screenshots/
-│   ├── 01-login.png
-│   ├── 02-successful-login.png
-│   ├── 03-device-verification.png
-│   ├── 04-resource-page.png
-│   ├── 05-access-granted.png
-│   ├── 06-access-denied.png
-│   ├── 07-access-log.png
-│   └── 08-github-repository.png
+screenshots/
+├── 01-login.png
+├── 02-invalid login.png
+├── 03-device-verification.png
+├── 04-successful-login.png
+├── 05-resource-page.png
+├── 06-access-granted.png
+├── 07-access-denied.png
+├── 08-access-log.png
+└── 09-github-repository.png
 │
 ├── templates/
 │   ├── device.html
@@ -333,13 +334,14 @@ The `screenshots` folder contains screenshots taken during testing and demonstra
 ```text
 screenshots/
 ├── 01-login.png
-├── 02-successful-login.png
+├── 02-invalid login.png
 ├── 03-device-verification.png
-├── 04-resource-page.png
-├── 05-access-granted.png
-├── 06-access-denied.png
-├── 07-access-log.png
-└── 08-github-repository.png
+├── 04-successful-login.png
+├── 05-resource-page.png
+├── 06-access-granted.png
+├── 07-access-denied.png
+├── 08-access-log.png
+└── 09-github-repository.png
 ```
 
 ### In simple words:
@@ -644,11 +646,11 @@ This screenshot shows the login page.
 
 ---
 
-## Screenshot 2 – Successful Login
+## Screenshot 2 – Invalid Login
 
-This screenshot shows successful login using valid credentials.
+This screenshot shows the application denying access when incorrect login credentials are entered.
 
-![Successful Login](screenshots/02-successful-login.png)
+![Invalid Login](screenshots/02-invalid%20login.png)
 
 ---
 
@@ -660,43 +662,51 @@ This screenshot shows the device verification page.
 
 ---
 
-## Screenshot 4 – Resource Access Page
+## Screenshot 4 – Successful Login
 
-This screenshot shows the available resources.
+This screenshot shows successful login using valid credentials.
 
-![Resource Access](screenshots/04-resource-page.png)
+![Successful Login](screenshots/04-successful-login.png)
 
 ---
 
-## Screenshot 5 – Access Granted
+## Screenshot 5 – Resource Access Page
+
+This screenshot shows the available resources that the user can request.
+
+![Resource Access](screenshots/05-resource-page.png)
+
+---
+
+## Screenshot 6 – Access Granted
 
 This screenshot shows an access request that was allowed.
 
-![Access Granted](screenshots/05-access-granted.png)
+![Access Granted](screenshots/06-access-granted.png)
 
 ---
 
-## Screenshot 6 – Access Denied
+## Screenshot 7 – Access Denied
 
-This screenshot shows an access request that was denied.
+This screenshot shows an access request that was denied because the user's role does not have permission.
 
-![Access Denied](screenshots/06-access-denied.png)
+![Access Denied](screenshots/07-access-denied.png)
 
 ---
 
-## Screenshot 7 – Access Log
+## Screenshot 8 – Access Log
 
 This screenshot shows the access decisions recorded in `access.log`.
 
-![Access Log](screenshots/07-access-log.png)
+![Access Log](screenshots/08-access-log.png)
 
 ---
 
-## Screenshot 8 – GitHub Repository
+## Screenshot 9 – GitHub Repository
 
 This screenshot shows the final GitHub repository structure.
 
-![GitHub Repository](screenshots/08-github-repository.png)
+![GitHub Repository](screenshots/09-github-repository.png)
 
 ---
 
@@ -788,15 +798,16 @@ cat access.log
 ```text
 zero-trust-access/
 │
-├── screenshots/
-│   ├── 01-login.png
-│   ├── 02-successful-login.png
-│   ├── 03-device-verification.png
-│   ├── 04-resource-page.png
-│   ├── 05-access-granted.png
-│   ├── 06-access-denied.png
-│   ├── 07-access-log.png
-│   └── 08-github-repository.png
+screenshots/
+├── 01-login.png
+├── 02-invalid login.png
+├── 03-device-verification.png
+├── 04-successful-login.png
+├── 05-resource-page.png
+├── 06-access-granted.png
+├── 07-access-denied.png
+├── 08-access-log.png
+└── 09-github-repository.png
 │
 ├── templates/
 │   ├── device.html
