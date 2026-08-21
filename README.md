@@ -472,7 +472,7 @@ Expected result:
 
 Login should be successful.
 
-**Result: PASS / NOT TESTED**
+**Result: PASS **
 
 ---
 
@@ -484,7 +484,7 @@ Expected result:
 
 Access should be denied.
 
-**Result: PASS / NOT TESTED**
+**Result: NOT TESTED**
 
 ---
 
@@ -502,7 +502,7 @@ Expected result:
 
 User should continue to the resource page.
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -516,7 +516,7 @@ Expected result:
 
 Access should be denied.
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -536,7 +536,7 @@ Expected result:
 ACCESS ALLOWED
 ```
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -556,7 +556,7 @@ Expected result:
 ACCESS ALLOWED
 ```
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -576,7 +576,7 @@ Expected result:
 ACCESS DENIED
 ```
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -596,7 +596,7 @@ Expected result:
 ACCESS ALLOWED
 ```
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -612,7 +612,7 @@ Expected result:
 
 The access decisions should be recorded in the log.
 
-**Result: PASS / NOT TESTED**
+**Result: PASS**
 
 ---
 
@@ -620,15 +620,15 @@ The access decisions should be recorded in the log.
 
 | Test                 | Expected Result            | Status            |
 | -------------------- | -------------------------- | ----------------- |
-| Valid Employee Login | Login successful           | PASS / NOT TESTED |
+| Valid Employee Login | Login successful           | PASS |
 | Invalid Login        | Access denied              | PASS / NOT TESTED |
-| Trusted Device       | Continue to resource check | PASS / NOT TESTED |
-| Untrusted Device     | Access denied              | PASS / NOT TESTED |
-| Employee → Public    | Allowed                    | PASS / NOT TESTED |
-| Employee → Internal  | Allowed                    | PASS / NOT TESTED |
-| Employee → Admin     | Denied                     | PASS / NOT TESTED |
-| Admin → Admin Panel  | Allowed                    | PASS / NOT TESTED |
-| Access Logging       | Decision recorded          | PASS / NOT TESTED |
+| Trusted Device       | Continue to resource check | PASS  |
+| Untrusted Device     | Access denied              | PASS  |
+| Employee → Public    | Allowed                    | PASS  |
+| Employee → Internal  | Allowed                    | PASS  |
+| Employee → Admin     | Denied                     | PASS  |
+| Admin → Admin Panel  | Allowed                    | PASS  |
+| Access Logging       | Decision recorded          | PASS  |
 
 ---
 
