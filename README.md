@@ -484,7 +484,7 @@ Expected result:
 
 Access should be denied.
 
-**Result: NOT TESTED**
+**Result: pass**
 
 ---
 
@@ -620,8 +620,8 @@ The access decisions should be recorded in the log.
 
 | Test                 | Expected Result            | Status            |
 | -------------------- | -------------------------- | ----------------- |
-| Valid Employee Login | Login successful           | PASS |
-| Invalid Login        | Access denied              | PASS / NOT TESTED |
+| Valid Employee Login | Login successful           | PASS  |
+| Invalid Login        | Access denied              | PASS  |
 | Trusted Device       | Continue to resource check | PASS  |
 | Untrusted Device     | Access denied              | PASS  |
 | Employee → Public    | Allowed                    | PASS  |
