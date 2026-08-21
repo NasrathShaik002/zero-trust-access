@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Trust Check</title>
+</head>
+<body>
+
+    <h1>Zero Trust Access Prototype</h1>
+
+    <h2>Device Trust Check</h2>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form method="POST" action="/device">
+
+        <label>Select Device Status:</label><br><br>
+
+        <select name="device_status">
+            <option value="trusted">Trusted Device</option>
+            <option value="untrusted">Untrusted Device</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Check Device</button>
+
+    </form>
+
+</body>
+</html>

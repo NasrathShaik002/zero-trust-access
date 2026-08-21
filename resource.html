@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resource Access</title>
+</head>
+<body>
+
+    <h1>Zero Trust Access Prototype</h1>
+
+    <h2>Resource Access Check</h2>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form method="POST" action="/resource">
+
+        <label>Select a Resource:</label><br><br>
+
+        <select name="resource">
+
+            <option value="public">
+                Public Information
+            </option>
+
+            <option value="internal">
+                Internal Documents
+            </option>
+
+            <option value="admin">
+                Admin Panel
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <button type="submit">Request Access</button>
+
+    </form>
+
+</body>
+</html>

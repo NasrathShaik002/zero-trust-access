@@ -1,0 +1,6 @@
+2026-08-21 11:09:12 | User: nasrath | Role: Employee | Resource: public | Decision: ALLOWED
+2026-08-21 11:09:17 | User: nasrath | Role: Employee | Resource: admin | Decision: DENIED
+2026-08-21 11:20:06 | User: nasrath | Role: Employee | Resource: internal | Decision: ALLOWED
+2026-08-21 11:20:08 | User: nasrath | Role: Employee | Resource: public | Decision: ALLOWED
+2026-08-21 11:20:19 | User: nasrath | Role: Employee | Resource: internal | Decision: ALLOWED
+2026-08-21 11:24:01 | User: nasrath | Role: Employee | Resource: internal | Decision: ALLOWED
